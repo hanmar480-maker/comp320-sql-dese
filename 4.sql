@@ -1,0 +1,1 @@
+SELECT city, COUNT(*) FROM schools GROUP BY city ORDER BY COUNT(*) DESC, city LIMIT 10;
