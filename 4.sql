@@ -1,1 +1,1 @@
-SELECT city, COUNT(*) FROM schools GROUP BY city ORDER BY COUNT(*) DESC, city LIMIT 10;
+select city, count(*) from schools where type = 'Public School' Group By city order by count(*)DESC,city  limit 10;
